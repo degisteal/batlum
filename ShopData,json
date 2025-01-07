@@ -1,7 +1,4 @@
 {
-    "syncDirection": 0,
-    "syncMode": 0,
-    "syncInterval": 0.0,
     "shopRobotCategory": [
         {
             "name": "Головы",
@@ -22,6 +19,16 @@
                         "robotID": 0,
                         "uniqID": "heads",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 25,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
                     }
                 },
                 {
@@ -29,7 +36,7 @@
                     "item_id": 1,
                     "robot_class": 0,
                     "item_name": "Голова солдата №2",
-                    "item_description": "Приближение +5%",
+                    "item_description": "Приближение +30",
                     "resourcesImageName": "",
                     "resourcesPrefabPath": "0/1000",
                     "cameraPrefabFov": 40.0,
@@ -40,6 +47,16 @@
                         "robotID": 0,
                         "uniqID": "heads",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 30,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
                     }
                 }
             ],
@@ -56,7 +73,7 @@
                     "item_description": "",
                     "resourcesImageName": "",
                     "resourcesPrefabPath": "0/300001",
-                    "cameraPrefabFov": 60.0,
+                    "cameraPrefabFov": 50.0,
                     "costClips": 0,
                     "costGoldClips": 0,
                     "needLevel": 0,
@@ -64,6 +81,44 @@
                         "robotID": 0,
                         "uniqID": "hands",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
+                    }
+                },
+                {
+                    "item_uniqID": "hands",
+                    "item_id": 1,
+                    "robot_class": 0,
+                    "item_name": "Руки солдата №2",
+                    "item_description": "Урон +3%",
+                    "resourcesImageName": "",
+                    "resourcesPrefabPath": "0/300004",
+                    "cameraPrefabFov": 50.0,
+                    "costClips": 20,
+                    "costGoldClips": 0,
+                    "needLevel": 0,
+                    "needItemToBuy": {
+                        "robotID": 0,
+                        "uniqID": "hands",
+                        "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 3,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
                     }
                 }
             ],
@@ -77,9 +132,37 @@
                     "item_id": 0,
                     "robot_class": 0,
                     "item_name": "Броня солдата №1",
-                    "item_description": "Пусто",
+                    "item_description": "",
                     "resourcesImageName": "",
                     "resourcesPrefabPath": "0/200001",
+                    "cameraPrefabFov": 60.0,
+                    "costClips": 20,
+                    "costGoldClips": 0,
+                    "needLevel": 0,
+                    "needItemToBuy": {
+                        "robotID": 0,
+                        "uniqID": "bodys",
+                        "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
+                    }
+                },
+                {
+                    "item_uniqID": "bodys",
+                    "item_id": 1,
+                    "robot_class": 0,
+                    "item_name": "Броня солдата №2",
+                    "item_description": "Защита +2%",
+                    "resourcesImageName": "",
+                    "resourcesPrefabPath": "0/200002",
                     "cameraPrefabFov": 60.0,
                     "costClips": 40,
                     "costGoldClips": 0,
@@ -88,23 +171,33 @@
                         "robotID": 0,
                         "uniqID": "bodys",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 2,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
                     }
                 }
             ],
             "indificator": "bodys"
         },
         {
-            "name": "Пояс",
+            "name": "Пояса",
             "shopRobotData": [
                 {
                     "item_uniqID": "belts",
                     "item_id": 0,
                     "robot_class": 0,
-                    "item_name": "",
+                    "item_name": "Пояс солдата №1",
                     "item_description": "",
                     "resourcesImageName": "",
                     "resourcesPrefabPath": "",
-                    "cameraPrefabFov": 40.0,
+                    "cameraPrefabFov": 30.0,
                     "costClips": 0,
                     "costGoldClips": 0,
                     "needLevel": 0,
@@ -112,13 +205,51 @@
                         "robotID": 0,
                         "uniqID": "belts",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
+                    }
+                },
+                {
+                    "item_uniqID": "belts",
+                    "item_id": 1,
+                    "robot_class": 0,
+                    "item_name": "Пояс солдата №2",
+                    "item_description": "Патроны +5%",
+                    "resourcesImageName": "",
+                    "resourcesPrefabPath": "0/700003",
+                    "cameraPrefabFov": 30.0,
+                    "costClips": 20,
+                    "costGoldClips": 0,
+                    "needLevel": 0,
+                    "needItemToBuy": {
+                        "robotID": 0,
+                        "uniqID": "belts",
+                        "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 5,
+                        "AddShieldEnergy": 0
                     }
                 }
             ],
             "indificator": "belts"
         },
         {
-            "name": "Батарейки",
+            "name": "Батареи",
             "shopRobotData": [
                 {
                     "item_uniqID": "batterys",
@@ -136,6 +267,44 @@
                         "robotID": 0,
                         "uniqID": "batterys",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
+                    }
+                },
+                {
+                    "item_uniqID": "batterys",
+                    "item_id": 1,
+                    "robot_class": 0,
+                    "item_name": "Батарейка солдата №2",
+                    "item_description": "Защита 1%",
+                    "resourcesImageName": "",
+                    "resourcesPrefabPath": "0/900006",
+                    "cameraPrefabFov": 40.0,
+                    "costClips": 20,
+                    "costGoldClips": 0,
+                    "needLevel": 0,
+                    "needItemToBuy": {
+                        "robotID": 0,
+                        "uniqID": "batterys",
+                        "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 1,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
                     }
                 }
             ],
@@ -149,10 +318,10 @@
                     "item_id": 0,
                     "robot_class": 0,
                     "item_name": "Ноги солдата №1",
-                    "item_description": "Скорость +3%",
+                    "item_description": "",
                     "resourcesImageName": "",
                     "resourcesPrefabPath": "0/400001",
-                    "cameraPrefabFov": 60.0,
+                    "cameraPrefabFov": 40.0,
                     "costClips": 40,
                     "costGoldClips": 0,
                     "needLevel": 0,
@@ -160,10 +329,58 @@
                         "robotID": 0,
                         "uniqID": "legs",
                         "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 0,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
+                    }
+                },
+                {
+                    "item_uniqID": "legs",
+                    "item_id": 1,
+                    "robot_class": 0,
+                    "item_name": "Ноги солдата №2",
+                    "item_description": "Скорость +3%",
+                    "resourcesImageName": "",
+                    "resourcesPrefabPath": "0/400004",
+                    "cameraPrefabFov": 40.0,
+                    "costClips": 40,
+                    "costGoldClips": 0,
+                    "needLevel": 0,
+                    "needItemToBuy": {
+                        "robotID": 0,
+                        "uniqID": "legs",
+                        "id": 0
+                    },
+                    "robotDetailBuff": {
+                        "AddZoom": 0,
+                        "PCritDamage": 0,
+                        "PDodge": 0,
+                        "PDamage": 0,
+                        "PSpeed": 3,
+                        "PArmor": 0,
+                        "PAmmo": 0,
+                        "AddShieldEnergy": 0
                     }
                 }
             ],
             "indificator": "legs"
+        },
+        {
+            "name": "Схемы",
+            "shopRobotData": [],
+            "indificator": "schemes"
+        },
+        {
+            "name": "Смайлы",
+            "shopRobotData": [],
+            "indificator": "smiles"
         }
     ]
 }
